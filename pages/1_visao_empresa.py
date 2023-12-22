@@ -1,17 +1,4 @@
-#Libraries
-from haversine import haversine
-import plotly.express as px
-import plotly.graph_objects as go
-from datetime import datetime
-from PIL import Image
 
-#bibliotecas necessarias
-
-import pandas as pd
-import streamlit as st
-import folium
-from streamlit_folium import folium_static
-from folium.plugins import MarkerCluster
 
 
 st.set_page_config(page_title='Visão Empresa',page_icon='', layout='wide')
