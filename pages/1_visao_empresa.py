@@ -131,7 +131,7 @@ def clean_code( df1 ):
 #df= pd.read_csv('programacao/train.csv')
 
 #Limpando os dados
-df1 = clean_code (df)
+#df1 = clean_code (df)
 
 
 
