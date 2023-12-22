@@ -1,10 +1,10 @@
 
 
 
-
+set_page_config(page_title='Visão Empresa',page_icon='', layout='wide')
 
 #________________________________________
-#Funçõesst.set_page_config(page_title='Visão Empresa',page_icon='', layout='wide')
+#Funçõesst.
 #________________________________________
 def country_maps( df1 ):
 
@@ -128,10 +128,10 @@ def clean_code( df1 ):
     return df1
 #-----------------------------Início da Estrutura lógica do código-------------------------
 #import dataset
-#df= pd.read_csv('programacao/train.csv')
+df= pd.read_csv('programacao/train.csv')
 
 #Limpando os dados
-#df1 = clean_code (df)
+df1 = clean_code (df)
 
 
 
