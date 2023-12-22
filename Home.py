@@ -7,7 +7,9 @@ st.set_page_config(
 
 
 #image_path = '/home/leandro/Documentos/repos/'
-image= Image.open(image_path + 'logo1.png')
+#image= Image.open(image_path + 'logo1.png')
+image= Image.open(image_path = 'logo1.png')
+
 st.sidebar.image( image, width=120 )
 
 st.sidebar.markdown ('# Cury Company')
