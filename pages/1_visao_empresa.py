@@ -1,10 +1,10 @@
 
 
 
-st.set_page_config(page_title='Visão Empresa',page_icon='', layout='wide')
+
 
 #________________________________________
-#Funções
+#Funçõesst.set_page_config(page_title='Visão Empresa',page_icon='', layout='wide')
 #________________________________________
 def country_maps( df1 ):
 
