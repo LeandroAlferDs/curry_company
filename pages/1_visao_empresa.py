@@ -128,7 +128,8 @@ def clean_code( df1 ):
     return df1
 #-----------------------------Início da Estrutura lógica do código-------------------------
 #import dataset
-df= pd.read_csv(programacao/train.csv)
+df= pd.read_csv('../programacao/train.csv')
+
 
 #Limpando os dados
 df1 = clean_code (df)
