@@ -139,7 +139,7 @@ df1 = clean_code (df)
 #Barra Lateral
 #===============================================
 st.header('Marketplace - Visão Cliente')
-#image_path = 'logo1.png'
+
 image = Image.open('logo1.png')
 st.sidebar.image ( image, width=280)
 
