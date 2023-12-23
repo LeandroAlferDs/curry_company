@@ -73,7 +73,7 @@ px.bar(df_aux,x='Order_Date',y='ID')
 #Barra Lateral
 #===============================================
 st.header('Marketplace - Visão Restaurantes')
-#image_path = 'logo1.png'
+
 image = Image.open('logo1.png')
 st.sidebar.image ( image, width=280)
 
