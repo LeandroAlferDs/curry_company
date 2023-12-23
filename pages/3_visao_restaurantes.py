@@ -2,20 +2,19 @@
 from haversine import haversine #haversine serve para habilitar calculos lat/long
 import plotly.express as px
 import plotly.graph_objects as go
-from datetime import datetime
-from PIL import Image
 
 #bibliotecas necessarias
-
+import folium
 import pandas as pd
 import numpy as np
 import streamlit as st
-import folium
+from PIL import Image
+
 from streamlit_folium import folium_static
-from folium.plugins import MarkerCluster
 
 
-st.set_page_config(page_title='Visão Empresa',page_icon='', layout='wide')
+
+st.set_page_config(page_title='Visão Empresa',page_icon='-', layout='wide')
 
 
 #import dataset
