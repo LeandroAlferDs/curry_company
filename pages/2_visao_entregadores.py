@@ -63,7 +63,7 @@ df1['Time_taken(min)'] = df1['Time_taken(min)'].astype( int )
 #Barra Lateral
 #===============================================
 st.header('Marketplace - Visão Entregadores')
-#image_path = 'logo1.png'
+
 image = Image.open('logo1.png')
 st.sidebar.image ( image, width=280)
 
