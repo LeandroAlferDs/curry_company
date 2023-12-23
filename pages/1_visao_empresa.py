@@ -1,7 +1,7 @@
 
 
 
-set_page_config(page_title='Visão Empresa',page_icon='', layout='wide')
+#set_page_config(page_title='Visão Empresa',page_icon='', layout='wide')
 
 #________________________________________
 #Funçõesst.
